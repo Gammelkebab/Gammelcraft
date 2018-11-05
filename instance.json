@@ -1,5 +1,5 @@
 {
-  "name": "MEINS",
+  "name": "Gammelcraft",
   "pack": "Sky Factory",
   "version": "2.4",
   "minecraftVersion": "1.7.10",
@@ -914,7 +914,7 @@
       "optional": false,
       "file": "TreeGrowingSimulator2014-MC1.7.10-0.0.3-22.jar",
       "type": "mods",
-      "description": "Adds an easy way to make your saplings grow better – by running and dancing around them! Simply sprint or crouch near your saplings to increase their growth, the more active you are the better!",
+      "description": "Adds an easy way to make your saplings grow better Â– by running and dancing around them! Simply sprint or crouch near your saplings to increase their growth, the more active you are the better!",
       "disabled": false,
       "userAdded": false,
       "wasSelected": true
