@@ -1,0 +1,23 @@
+# bloodmagic.zs
+val oreSkystone = <ore:oreSkystone>;
+oreSkystone.add(<appliedenergistics2:tile.BlockSkyStone>);
+mods.bloodmagic.FallingTower.addFocus(<appliedenergistics2:item.ItemMultiMaterial:47>, 2, "oreSkystone, 1000");
+mods.bloodmagic.FallingTower.addFocus(<ExtraUtilities:cobblestone_compressed:2>, 20, "");
+mods.bloodmagic.FallingTower.addFocus(<ExtraUtilities:cobblestone_compressed:3>, 40, "");
+mods.bloodmagic.FallingTower.addFocus(<ExtraUtilities:cobblestone_compressed:4>, 60, "");
+mods.bloodmagic.FallingTower.addFocus(<ExtraUtilities:cobblestone_compressed:5>, 80, "");
+mods.bloodmagic.FallingTower.addFocus(<ExtraUtilities:cobblestone_compressed:6>, 100, "");
+mods.bloodmagic.FallingTower.addFocus(<ExtraUtilities:cobblestone_compressed:7>, 120, "");
+mods.bloodmagic.FallingTower.removeFocus(<minecraft:stone>);
+mods.bloodmagic.FallingTower.addFocus(<minecraft:stone>, 16, "oreCoal, 150, oreApatite, 50, oreIron");
+mods.bloodmagic.FallingTower.removeFocus(<minecraft:nether_star>);
+mods.bloodmagic.FallingTower.addFocus(<minecraft:nether_star>, 3, "oreCertusQuartz, 120, oreIridium, 5, oreMoonstone, 5, oreSunstone, 5, oreQuartz, 200, oreEmerald, 30, oreDiamond, 60");
+mods.bloodmagic.FallingTower.removeFocus(<minecraft:diamond_block>);
+mods.bloodmagic.FallingTower.removeFocus(<minecraft:diamond>);
+mods.bloodmagic.FallingTower.addFocus(<minecraft:diamond_block>, 5, "oreDiamond, 100, oreEmerald, 30, oreCinnabar, 40, oreAmber, 40");
+mods.bloodmagic.FallingTower.removeFocus(<minecraft:iron_block>);
+val myOreTin=<ore:myOreTin>;
+myOreTin.add(<ThermalFoundation:Ore:1>);
+val myOreCopper =<ore:myOreCopper>;
+myOreCopper.add(<ThermalFoundation:Ore>);
+mods.bloodmagic.FallingTower.addFocus(<minecraft:iron_block>, 7, "oreIron, 400, oreGold, 30, myOreCopper, 200, myOreTin, 140, oreSilver, 70, oreLead, 80, oreLapis, 60, oreRedstone, 100");
