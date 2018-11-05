@@ -7,9 +7,7 @@ ops.json
 eula.txt
 banned-ips.json
 banned-players.json
-ForgeEssentials/Backups/
-ForgeEssentials/ChatLog/
-ForgeEssentials/mapper/
+ForgeEssentials/
 asm/
 backups/
 hats/
