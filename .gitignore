@@ -1,0 +1,15 @@
+world/
+logs/
+minetweaker.log
+whitelist.json
+usercache.json
+ops.json
+eula.txt
+banned-ips.json
+banned-players.json
+ForgeEssentials/Backups/
+ForgeEssentials/ChatLog/
+ForgeEssentials/mapper/
+asm/
+backups/
+hats/
