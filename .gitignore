@@ -27,3 +27,4 @@ server.properties
 config/IguanaTinkerTweaks/restrictions.cfg
 config/enderio/*_Core*
 config/enderio/*_User*
+world*.zip
