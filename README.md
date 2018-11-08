@@ -16,7 +16,7 @@
 
 9. Make sure your account is selected in the drop-down menu on the bottom of the launcher window.
 
-10. go to Instances tab
+10. Go to Instances tab
 
 11. Start the pack.
 
