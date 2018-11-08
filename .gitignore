@@ -25,3 +25,7 @@ BotaniaVars.dat
 servers.dat
 usernamecache.json
 1213309934
+config/AppliedEnergistics2/recipes/generated/*
+options.txt
+modpack/gamemodes.json
+mods/carpentersblocks/CarpentersBlocksCachedResources.zip

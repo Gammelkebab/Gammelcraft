@@ -144,12 +144,12 @@ minecraft:stained_glass:13, Green Stained Glass
 minecraft:stained_glass:14, Red Stained Glass
 minecraft:stained_glass:15, Black Stained Glass
 minecraft:trapdoor, Trapdoor
-minecraft:monster_egg:0, Stone §4Monster Egg§r
-minecraft:monster_egg:1, Cobblestone §4Monster Egg§r
-minecraft:monster_egg:2, Stone Brick §4Monster Egg§r
-minecraft:monster_egg:3, Mossy Stone Brick §4Monster Egg§r
-minecraft:monster_egg:4, Cracked Stone Brick §4Monster Egg§r
-minecraft:monster_egg:5, Chiseled Stone Brick §4Monster Egg§r
+minecraft:monster_egg:0, Stone Monster Egg
+minecraft:monster_egg:1, Cobblestone Monster Egg
+minecraft:monster_egg:2, Stone Brick Monster Egg
+minecraft:monster_egg:3, Mossy Stone Brick Monster Egg
+minecraft:monster_egg:4, Cracked Stone Brick Monster Egg
+minecraft:monster_egg:5, Chiseled Stone Brick Monster Egg
 minecraft:stonebrick:0, Stone Bricks
 minecraft:stonebrick:1, Mossy Stone Bricks
 minecraft:stonebrick:2, Cracked Stone Bricks
@@ -290,9 +290,6 @@ appliedenergistics2:tile.BlockSkyStone:0, Sky Stone
 appliedenergistics2:tile.BlockSkyStone:1, Sky Stone Block
 appliedenergistics2:tile.BlockSkyStone:2, Sky Stone Brick
 appliedenergistics2:tile.BlockSkyStone:3, Sky Stone Small Brick
-appliedenergistics2:tile.BlockSkyChest:0, Sky Stone Chest
-appliedenergistics2:tile.BlockSkyChest:1, Sky Stone Block Chest
-appliedenergistics2:tile.BlockSkyCompass, Meteorite Compass
 appliedenergistics2:tile.BlockGrinder, Quartz Grindstone
 appliedenergistics2:tile.BlockCrank, Wooden Crank
 appliedenergistics2:tile.BlockInscriber, Inscriber
@@ -313,7 +310,6 @@ appliedenergistics2:tile.BlockCellWorkbench, Cell Workbench
 appliedenergistics2:tile.BlockIOPort, ME IO Port
 appliedenergistics2:tile.BlockCondenser, Matter Condenser
 appliedenergistics2:tile.BlockEnergyAcceptor, Energy Acceptor
-appliedenergistics2:tile.BlockVibrationChamber, Vibration Chamber
 appliedenergistics2:tile.BlockQuartzGrowthAccelerator, Crystal Growth Accelerator
 appliedenergistics2:tile.BlockEnergyCell, Energy Cell
 appliedenergistics2:tile.BlockDenseEnergyCell, Dense Energy Cell
@@ -1417,6 +1413,9 @@ AgriCraft:grate:0, Wooden Grate
 AgriCraft:grate:0, Wooden Grate
 AgriCraft:grate:0, Wooden Grate
 AgriCraft:grate:0, Wooden Grate
+AgriCraft:cropPotato, Potato
+AgriCraft:cropCarrot, Carrot
+AgriCraft:cropSugarcane, Sugarcane
 minecraft:iron_shovel, Iron Shovel
 minecraft:iron_pickaxe, Iron Pickaxe
 minecraft:iron_axe, Iron Axe
@@ -1714,23 +1713,20 @@ minecraft:netherbrick, Nether Brick
 minecraft:quartz, Nether Quartz
 minecraft:tnt_minecart, Minecart with TNT
 minecraft:hopper_minecart, Minecart with Hopper
-AgriCraft:cropPotato, Potato
-AgriCraft:cropCarrot, Carrot
-AgriCraft:cropSugarcane, Sugarcane
 AgriCraft:cropDandelion, Dandelion
 AgriCraft:cropPoppy, Poppy
 AgriCraft:cropOrchid, Orchid
 AgriCraft:cropAllium, Allium
 AgriCraft:cropTulipRed, Red Tulip
+AgriCraft:cropTulipOrange, Orange Tulip
+AgriCraft:cropTulipWhite, White Tulip
+AgriCraft:cropTulipPink, Pink Tulip
 minecraft:iron_horse_armor, Iron Horse Armor
 minecraft:golden_horse_armor, Gold Horse Armor
 minecraft:diamond_horse_armor, Diamond Horse Armor
 minecraft:lead, Lead
 minecraft:name_tag, Name Tag
 minecraft:command_block_minecart, Minecart with Command Block
-AgriCraft:cropTulipOrange, Orange Tulip
-AgriCraft:cropTulipWhite, White Tulip
-AgriCraft:cropTulipPink, Pink Tulip
 AgriCraft:cropDaisy, Daisy
 AgriCraft:cropCactus, Cactus
 AgriCraft:cropShroomRed, Red Mushroom
@@ -6710,7 +6706,7 @@ extracells:vibrantchamberfluid, Fluid Vibration Chamber
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quantum Emission Decompiler)
+ExtraUtilities:endConstructor:0, QED (Quod Erat Demonstrandum)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -7672,38 +7668,38 @@ ExtraTiC:moltenConstantan, Molten Constantan
 ExtraTiC:blockFunStuff:0, Fairy Block
 ExtraTiC:blockFunStuff:1, Pokefennium Block
 ExtraTiC:blockFunStuff:2, RedAurum Block
+ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
+ThaumicTinkerer:spawner, Tablet of Necromancy
 ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
 ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
 ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
 ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
+ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:magnet:0, Kinetic Attractor
+ThaumicTinkerer:magnet:1, Corporeal Attractor
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
+ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
+ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:repairer, Thaumic Restorer
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:warpGate, Celestial Gateway
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
-ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
-ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
-ThaumicTinkerer:dislocator, Transvector Dislocator
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:platform, Ethereal Platform
-ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
-ThaumicTinkerer:forcefield, Forcefield
-ThaumicTinkerer:magnet:0, Kinetic Attractor
-ThaumicTinkerer:magnet:1, Corporeal Attractor
 ForbiddenMagic:ArcaneCake, Thaumic Cake
 ForbiddenMagic:WrathCage, Wrath Cage
 ForbiddenMagic:InkFlower, Umbral Rose
@@ -7959,6 +7955,9 @@ rftools:screenBlock, Screen
 rftools:screenHitBlock, Screen
 rftools:screenControllerBlock, Screen Controller
 rftools:dimletResearcherBlock, Dimlet Researcher
+rftools:dimletScramblerBlock, Dimlet Scrambler
+rftools:dimensionEnscriberBlock, Dimension Enscriber
+rftools:dimensionBuilderBlock, Dimension Builder
 minecraft:record_13, Music Disc
 minecraft:record_cat, Music Disc
 minecraft:record_blocks, Music Disc
@@ -7971,9 +7970,6 @@ minecraft:record_strad, Music Disc
 minecraft:record_ward, Music Disc
 minecraft:record_11, Music Disc
 minecraft:record_wait, Music Disc
-rftools:dimletScramblerBlock, Dimlet Scrambler
-rftools:dimensionEnscriberBlock, Dimension Enscriber
-rftools:dimensionBuilderBlock, Dimension Builder
 rftools:creativeDimensionBuilderBlock, Creative Dimension Builder
 rftools:dimensionEditorBlock, Dimension Editor
 rftools:dimensionMonitorBlock, Dimension Monitor
@@ -8905,12 +8901,12 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Brown Stained Glass
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Green Stained Glass
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Stained Glass
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Black Stained Glass
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Stone §4Monster Egg§r
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Cobblestone §4Monster Egg§r
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Stone Brick §4Monster Egg§r
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Stone Brick §4Monster Egg§r
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Cracked Stone Brick §4Monster Egg§r
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Stone Brick §4Monster Egg§r
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stone Monster Egg
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Cobblestone Monster Egg
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Stone Brick Monster Egg
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Stone Brick Monster Egg
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Cracked Stone Brick Monster Egg
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Stone Brick Monster Egg
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Stone Bricks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Mossy Stone Bricks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Cracked Stone Bricks
@@ -10876,10 +10872,10 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Brownstone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Fairy Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pokefennium Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - RedAurum Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Smokey Quartz
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Smokey Quartz Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Nether Star Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Log
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tainted Planks
@@ -11196,8 +11192,6 @@ AgriCraft:journal, Agricultural Journal
 AgriCraft:magnifyingGlass, Magnifying Glass
 AgriCraft:debugger, Debugger
 AgriCraft:trowel, Gardening Trowel
-AgriCraft:handRake:0, Wooden Hand Rake
-AgriCraft:handRake:1, Iron Hand Rake
 AgriCraft:clipper, Clipper
 AgriCraft:clipping, Clipping
 AWWayofTime:weakBloodOrb, Weak Blood Orb
@@ -18998,12 +18992,12 @@ ThermalDynamics:cover:0, Brown Stained Glass Cover
 ThermalDynamics:cover:0, Green Stained Glass Cover
 ThermalDynamics:cover:0, Red Stained Glass Cover
 ThermalDynamics:cover:0, Black Stained Glass Cover
-ThermalDynamics:cover:0, Stone §4Monster Egg§r Cover
-ThermalDynamics:cover:0, Cobblestone §4Monster Egg§r Cover
-ThermalDynamics:cover:0, Stone Brick §4Monster Egg§r Cover
-ThermalDynamics:cover:0, Mossy Stone Brick §4Monster Egg§r Cover
-ThermalDynamics:cover:0, Cracked Stone Brick §4Monster Egg§r Cover
-ThermalDynamics:cover:0, Chiseled Stone Brick §4Monster Egg§r Cover
+ThermalDynamics:cover:0, Stone Monster Egg Cover
+ThermalDynamics:cover:0, Cobblestone Monster Egg Cover
+ThermalDynamics:cover:0, Stone Brick Monster Egg Cover
+ThermalDynamics:cover:0, Mossy Stone Brick Monster Egg Cover
+ThermalDynamics:cover:0, Cracked Stone Brick Monster Egg Cover
+ThermalDynamics:cover:0, Chiseled Stone Brick Monster Egg Cover
 ThermalDynamics:cover:0, Stone Bricks Cover
 ThermalDynamics:cover:0, Mossy Stone Bricks Cover
 ThermalDynamics:cover:0, Cracked Stone Bricks Cover
@@ -22730,22 +22724,22 @@ ThermalDynamics:cover:0, Molten Constantan Cover
 ThermalDynamics:cover:0, Fairy Block Cover
 ThermalDynamics:cover:0, Pokefennium Block Cover
 ThermalDynamics:cover:0, RedAurum Block Cover
-ThermalDynamics:cover:0, Bedrock Portal Cover
+ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
 ThermalDynamics:cover:0, Aer Imbued Fire Cover
+ThermalDynamics:cover:0, Ordo Imbued Fire Cover
+ThermalDynamics:cover:0, tile.gaseousLight.name Cover
+ThermalDynamics:cover:0, Terra Imbued Fire Cover
+ThermalDynamics:cover:0, Aqua Imbued Fire Cover
+ThermalDynamics:cover:0, Perditio Imbued Fire Cover
+ThermalDynamics:cover:0, Bedrock Portal Cover
 ThermalDynamics:cover:0, Ignis Imbued Fire Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, tile.nitorGas.name Cover
+ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
 ThermalDynamics:cover:0, Block of Smokey Quartz Cover
 ThermalDynamics:cover:0, Chiseled Smokey Quartz Block Cover
 ThermalDynamics:cover:0, Pillar Smokey Quartz Block Cover
-ThermalDynamics:cover:0, Ordo Imbued Fire Cover
-ThermalDynamics:cover:0, tile.nitorGas.name Cover
-ThermalDynamics:cover:0, Perditio Imbued Fire Cover
-ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
-ThermalDynamics:cover:0, Terra Imbued Fire Cover
-ThermalDynamics:cover:0, Aqua Imbued Fire Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, tile.gaseousLight.name Cover
-ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
 ThermalDynamics:cover:0, Thaumic Cake Cover
 ThermalDynamics:cover:0, Umbral Rose Cover
 ThermalDynamics:cover:0, Nether Star Block Cover
