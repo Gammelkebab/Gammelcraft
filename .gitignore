@@ -24,3 +24,6 @@ config/Natura-Dynamic.json
 config/worldedit/worldedit.properties
 config/fastcraft.ini
 server.properties
+config/IguanaTinkerTweaks/restrictions.cfg
+config/enderio/*_Core*
+config/enderio/*_User*
