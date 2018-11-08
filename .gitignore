@@ -29,3 +29,4 @@ config/AppliedEnergistics2/recipes/generated/*
 options.txt
 modpack/gamemodes.json
 mods/carpentersblocks/CarpentersBlocksCachedResources.zip
+config/AppliedEnergistics2/recipes/items.csv
