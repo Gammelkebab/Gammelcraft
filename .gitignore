@@ -21,4 +21,6 @@ ModList.txt
 config/BloodMagic/schematics/
 config/AppliedEnergistics2/recipes/README.html
 config/Natura-Dynamic.json
-confg/worldedit/worldedit.properties
+config/worldedit/worldedit.properties
+config/fastcraft.ini
+server.properties
