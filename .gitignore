@@ -33,3 +33,7 @@ config/AppliedEnergistics2/recipes/items.csv
 config/BloodMagic/schematics/
 config/AppliedEnergistics2/recipes/README.html
 config/Natura-Dynamic.json
+config/draconicevolution/contributors.json
+config/enderio/*_Core*
+config/enderio/*_User*
+config/ultimate_unicorn_download/
