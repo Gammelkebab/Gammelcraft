@@ -10,20 +10,24 @@
 
 6. The directory should look like this: \Instances\Gammelcraft
 
-7. Start ATLauncher.
+7. (Optional) Download a Resource Pack.
 
-8. Go to the "Accounts"-tab in the launcher, add your Minecraft account (yes, non "Mojang-Accounts" from ancient times will still work).
+ 7.1. I personally use Soartex Fanver Modded Universal 1.3.5 for 1.7.x (https://soartex.net/downloads/modpacks/)
 
-9. Make sure your account is selected in the drop-down menu on the bottom of the launcher window.
+ 7.2. Place the downloaded .zip into \Instances\Gammelcraft\resourcepacks (create the folder yourself if it's not there)
 
-10. Go to Instances tab
+8. Start ATLauncher.
 
-11. Start the pack.
+9. Go to the "Settings"-tab in the launcher, then to the "Java/Minecraft"-tab. 
 
-12. (Optional) Download a Resource Pack.
+10. Set "Maximum Memory/Ram:" to at least 3072 MB (I use 4096 MB myself).
 
-13. I personally use Soartex Fanver Modded Universal 1.3.5 for 1.7.x (https://soartex.net/downloads/modpacks/)
+11. Go to the "Accounts"-tab in the launcher, add your Minecraft account (yes, non "Mojang-Accounts" from ancient times will still work).
 
-14. Place the downloaded .zip into \Instances\Gammelcraft\resourcepacks (create the folder yourself if it's not there)
+12. Make sure your account is selected in the drop-down menu on the bottom of the launcher window.
+
+13. Go to Instances tab
+
+14. Start the pack.
 
 15. Have fun!
