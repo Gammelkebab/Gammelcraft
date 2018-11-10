@@ -37,3 +37,17 @@ config/draconicevolution/contributors.json
 config/enderio/*_Core*
 config/enderio/*_User*
 config/ultimate_unicorn_download/
+config/AM2/AM2.cfg
+config/cofh/
+config/powercrystals/
+config/Waila.cfg
+config/fastcraft.ini
+config/iChunUtil.cfg
+local/
+config/splash.properties
+config/buildcraft/compat.cfg
+config/AppliedEnergistics2/CustomRecipes.cfg
+config/AppliedEnergistics2/Facades.cfg
+config/InvTweaks.cfg
+config/CodeChickenCore.cfg
+config/EnderStorage.cfg
