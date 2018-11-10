@@ -28,3 +28,7 @@ config/IguanaTinkerTweaks/restrictions.cfg
 config/enderio/*_Core*
 config/enderio/*_User*
 world*.zip
+config/iChunUtil.cfg
+config/fastcraft.ini
+modpack/gamemodes.json
+local/
