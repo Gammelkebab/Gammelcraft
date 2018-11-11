@@ -34,7 +34,7 @@ recipes.addShapeless(<TConstruct:heartCanister:6>, [<TConstruct:heartCanister:5>
 recipes.remove(<ExtraUtilities:watering_can:1>);
 recipes.addShaped(<ExtraUtilities:watering_can:1>, [[manyullyn, y, null], [manyullyn, null, manyullyn], [null, manyullyn, null]]);
 recipes.addShaped(<minecraft:skull:1>, [[tNugg, imSlate, tNugg], [imSlate, <minecraft:skull>, imSlate], [tNugg, imSlate, tNugg]]);
-recipes.addShaped(blastBrick, [[netherBrick, brick, netherBrick], [brick, <MCA:DiamondDust>, brick], [netherBrick, brick, netherBrick]]);
+recipes.addShaped(blastBrick, [[netherBrick, brick, netherBrick], [brick, <minecraft:diamond>, brick], [netherBrick, brick, netherBrick]]);
 recipes.remove(<RandomThings:fertilizedDirt>);
 recipes.addShaped(<RandomThings:fertilizedDirt>, [[fert, bloodBall, fert], [bloodBall, MFRfertSoil, bloodBall], [fert, bloodBall, fert]]);
 
