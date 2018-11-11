@@ -15,7 +15,15 @@ val brick = <ore:ingotBrick>;
 val fert = <Forestry:fertilizerCompound>;
 val bloodBall = <TConstruct:strangeFood:1>;
 val MFRfertSoil = <MineFactoryReloaded:farmland>;
+val angelRing = <ExtraUtilities:angelRing>;
+val hardFeather = <ultimate_unicorn_mod:pegasus_feather>;
 
+recipes.removeShaped(angelRing);
+recipes.removeShaped(<ExtraUtilities:angelRing:1>);
+recipes.removeShaped(<ExtraUtilities:angelRing:2>);
+recipes.removeShaped(<ExtraUtilities:angelRing:3>);
+recipes.removeShaped(<ExtraUtilities:angelRing:4>);
+recipes.addShaped(angelRing, [[hardFeather,  <Thaumcraft:HoverHarness>, hardFeather], [<AWWayofTime:airSigil>, <TravellersGear:simpleGear:2>, <Botania:flightTiara>], [hardFeather, <Thaumcraft:ItemGirdleHover>, hardFeather]]);
 recipes.remove(<ae2stuff:Grower>);
 recipes.addShaped(<ae2stuff:Grower>,[[growthAcc, <minecraft:hopper>, growthAcc], [growthAcc, <minecraft:chest>, growthAcc], [growthAcc, <appliedenergistics2:item.ItemMultiMaterial:47>, growthAcc]]);
 recipes.remove(<appliedenergistics2:tile.BlockCondenser>);
@@ -26,7 +34,7 @@ recipes.addShapeless(<TConstruct:heartCanister:6>, [<TConstruct:heartCanister:5>
 recipes.remove(<ExtraUtilities:watering_can:1>);
 recipes.addShaped(<ExtraUtilities:watering_can:1>, [[manyullyn, y, null], [manyullyn, null, manyullyn], [null, manyullyn, null]]);
 recipes.addShaped(<minecraft:skull:1>, [[tNugg, imSlate, tNugg], [imSlate, <minecraft:skull>, imSlate], [tNugg, imSlate, tNugg]]);
-recipes.addShaped(blastBrick, [[netherBrick, brick, netherBrick], [brick, <MCA:DiamondDust>, brick], [netherBrick, brick, netherBrick]]);
+recipes.addShaped(blastBrick, [[netherBrick, brick, netherBrick], [brick, <minecraft:diamond>, brick], [netherBrick, brick, netherBrick]]);
 recipes.remove(<RandomThings:fertilizedDirt>);
 recipes.addShaped(<RandomThings:fertilizedDirt>, [[fert, bloodBall, fert], [bloodBall, MFRfertSoil, bloodBall], [fert, bloodBall, fert]]);
 
