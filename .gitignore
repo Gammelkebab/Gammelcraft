@@ -32,3 +32,4 @@ config/iChunUtil.cfg
 config/fastcraft.ini
 modpack/gamemodes.json
 local/
+config/AppliedEnergistics2/CustomRecipes.cfg
