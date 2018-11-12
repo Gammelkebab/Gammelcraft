@@ -33,3 +33,4 @@ config/fastcraft.ini
 modpack/gamemodes.json
 local/
 config/AppliedEnergistics2/CustomRecipes.cfg
+config/Waila.cfg
